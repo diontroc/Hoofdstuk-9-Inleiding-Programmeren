@@ -1,0 +1,15 @@
+int GetalC;
+
+void setup(){
+  GetalC = mienMethode(300, 450, 400, 350);
+  size(400, 400);
+}
+
+int mienMethode(int getal, int getaltwee, int getaldrie, int getalvier){
+line(10, 10, 300, 10);
+line(10, 210, 300, 210);
+line(10, 10, 10, 210);
+line(300, 10, 300, 210);
+strokeWeight(7);
+return GetalC;
+}
