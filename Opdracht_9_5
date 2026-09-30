@@ -1,0 +1,17 @@
+String P1 = "A";
+String P2 = " JE";
+String P3 = " TO!";
+String P4 = " ZOALS DE TSJECHEN ZEGGEN.";
+String voegSamen;
+
+ String voegSamen(){
+  return P1 + P2 + P3 + P4;
+}
+ 
+void setup(){
+ String resultaat = voegSamen();
+println(resultaat);
+}
+void draw(){
+
+}
