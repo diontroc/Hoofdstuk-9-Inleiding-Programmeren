@@ -1,0 +1,9 @@
+size(200, 200);
+background(42, 250);
+
+int grootteC = 40;
+
+for(int i = 0; i < 5; i++){
+ellipse(80 - grootteC/2, 80 - grootteC/2, 80 - grootteC/2, 80 - grootteC/2);
+grootteC = grootteC - 10;
+}
