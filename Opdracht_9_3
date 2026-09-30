@@ -1,0 +1,17 @@
+int getal1;
+
+void setup(){
+  getal1 = mijnMethode(9, 9);
+  println(getal1);
+}
+
+void draw(){
+  
+}
+
+int mijnMethode(int getal, int getaltwee){
+  int totaal = getal + getaltwee;
+  int gemiddelde = totaal / 2;
+   println(gemiddelde);
+  return totaal;
+}
